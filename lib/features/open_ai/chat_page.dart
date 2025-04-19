@@ -115,7 +115,7 @@ class _State extends ConsumerState<ChatPage> {
             });
           },
           appBar: AppBar(
-            backgroundColor: context.backgroundColor.withOpacity(0.2),
+            backgroundColor: context.backgroundColor.withAlpha(100),
             automaticallyImplyLeading: false,
             leading: Builder(
               builder: (context) {

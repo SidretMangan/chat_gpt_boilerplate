@@ -16,7 +16,7 @@ class TextFormFieldDecoration {
     final border = OutlineInputBorder(
       borderRadius: BorderRadius.circular(12),
       borderSide: BorderSide(
-        color: Colors.grey.withOpacity(0.4),
+        color: Colors.grey.withAlpha(100),
       ),
     );
     final fillColor = context.isDark ? Colors.black : Colors.white;
